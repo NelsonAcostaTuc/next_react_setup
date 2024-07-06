@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+/* import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { getAllUsers } from '../actions/userActions';
 import { User, UserState } from '@/types/userTypes';
 
@@ -39,4 +39,4 @@ const userSlice = createSlice({
 
 export const { clearError, deleteUser } = userSlice.actions;
 
-export default userSlice.reducer;
+export default userSlice.reducer; */
