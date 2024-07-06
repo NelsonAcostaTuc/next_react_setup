@@ -1,10 +1,7 @@
 // src/app/page.tsx
-"use client"
+'use client'
 import { fetchCars, Car } from '@/services/apiServices';
 import React, { useEffect, useState } from 'react';
-
-
-
 const HomePage = () => {
   const [cars, setCars] = useState<Car[]>([]);
   const [filteredCars, setFilteredCars] = useState<Car[]>([]);
@@ -12,7 +9,6 @@ const HomePage = () => {
   const [error, setError] = useState<string | null>(null);
   const [brandFilter, setBrandFilter] = useState<string>('');
   const [yearFilter, setYearFilter] = useState<string>('');
-
   useEffect(() => {
     const loadCars = async () => {
       try {
@@ -25,7 +21,6 @@ const HomePage = () => {
         setLoading(false);
       }
     };
-
     loadCars();
   }, []);
 
