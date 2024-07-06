@@ -1,5 +1,5 @@
-'use client';
-import { getAllUsers } from '@/redux/actions/userActions';
+/*'use client';
+ import { getAllUsers } from '@/redux/actions/userActions';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { useEffect } from 'react';
 
@@ -15,5 +15,6 @@ export default function Page() {
     console.log(allUsers);
   }, [allUsers]);
 
-  return <h1>Hello, Dashboard Page!</h1>;
+  return <h1>Hello, Dashboard Page!</h1>; 
 }
+*/
