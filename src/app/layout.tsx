@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Somnio Software',
-  description: 'Somnio Software Challenge',
+  title: 'Test Fast API',
+  description: 'Test Fast API',
 };
 
 export default function RootLayout({
